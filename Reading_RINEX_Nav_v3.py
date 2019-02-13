@@ -63,7 +63,7 @@ def get_eph(file_path):
                     cnt = 1
 
     #--- name columns and put into Data Frames ---#
-    eph = pd.DataFrame(eph,columns=('svid','year','month','day','hour','min','sec','af0','af1','af2'))
+    eph = pd.DataFrame(eph,columns=('svid','year','month','day','hour','minutes','sec','af0','af1','af2'))
     eph1 = pd.DataFrame(eph1,columns=('IODE','crs','delta_n','M0'))
     eph2 = pd.DataFrame(eph2,columns=('Cuc','e','Cus','Asqrt'))
     eph3 = pd.DataFrame(eph3,columns=('Toe','Cic','OMEGA','Cis'))
